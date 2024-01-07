@@ -66,3 +66,45 @@ font-family: 'Merriweather', serif; */
     margin-top: 50px;
     /* height: 500px; */
 }
+
+/* ===============Welcome=============== */
+.welcome{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 70px 120px;
+    margin-top: 120px;
+}
+.welcome .welcome-text .welcome-heading{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-top: 60px;
+}
+.welcome .welcome-text .welcome-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 25px 0 50px 0;
+}
+.welcome .welcome-text .welcome-join-now{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    margin-left: 40px;
+}
+.welcome .welcome-image{
+    padding-right: 20px;
+}
+
