@@ -22,7 +22,7 @@ font-family: 'Merriweather', serif; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    padding: 200px 340px 177px 340px;
+    padding: 180px 340px;
     margin-top: 50px;
     text-align: center;
 }
@@ -38,4 +38,31 @@ font-family: 'Merriweather', serif; */
     font-size: 72px;
     font-weight: 900;
     line-height: 95px; 
+}
+/* ===============Offer=============== */
+.offer{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.offer .offer-heading{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+.offer .offer-description{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.offer .offer-category{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;;
+}
+.offer .offer-image{
+    margin-top: 50px;
+    /* height: 500px; */
 }
