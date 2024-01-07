@@ -1,0 +1,41 @@
+/* ===============Common CSS=============== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+/* font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; */
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* ===============Banner=============== */
+.banner{
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png");
+    /* background-image: url("../images/Banner\ Image.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 200px 340px 177px 340px;
+    margin-top: 50px;
+    text-align: center;
+}
+.banner .banner-heading{
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner .banner-text{
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px; 
+}
