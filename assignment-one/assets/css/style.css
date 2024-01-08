@@ -136,6 +136,11 @@ font-family: 'Merriweather', serif; */
     padding: 15px 30px;
     border: none;
     margin-top: 50px;
+    transition: .3s all ease;
+}
+.join .btn:hover{
+    color: #F00;
+    background: #FFF;
 }
 
 /* ===============New Best Offer=============== */
@@ -324,7 +329,7 @@ font-family: 'Merriweather', serif; */
     border: none;
 }
 .subscribe button{
-    padding: 25px 30px;
+    padding: 20px 30px;
     border-radius: 0px 50px 50px 0px;
     background:#F00;
     color: #FFF;
@@ -333,6 +338,70 @@ font-family: 'Merriweather', serif; */
     text-transform: capitalize;
     border: none;
     position: absolute;
-    right: 39%;
+    right: 37%;
+    transition: .3s all ease;
+}
+.subscribe button:hover{
+    color: #F00;
+    background: #FFF;
+}
+/* ===============Footer=============== */
+.footer{
+    margin-top: 120px;
+    padding: 120px 140px;
+    background: #070211;
+}
+.footer hr{
+    width: 100%;
+    height: 5px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgba(255, 255, 255, 0.15);
+}
+.footer .footer-contact{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.footer .footer-contact .footer-contact-description{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer .footer-contact .footer-contact-link ul li a{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer .footer-contact .footer-contact-link ul li i{
+    margin-right: 10px;
+}
+.footer .footer-contact-social-link{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.footer .footer-contact-social-link .footer-contact-social-link-item{
+    margin-right: 25px;
+}
+.footer .footer-contact-copy-right{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .copyright-description{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer button{
+    color: #FFF;;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    background: none;
 }
 
