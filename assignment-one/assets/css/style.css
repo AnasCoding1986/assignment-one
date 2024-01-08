@@ -252,4 +252,42 @@ font-family: 'Merriweather', serif; */
     bottom: 0;
 }
 
+/* ===============Portfolio=============== */
+.portfolio{
+    margin-top: 300px;
+}
+.portfolio .portfolio-first-p{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.portfolio .portfolio-heading{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 15px 0 22px 0;
+}
+.portfolio .portfolio-middle-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+.portfolio-items{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 1%; */
+    justify-content: space-between;
+}
+.prtfoilio-item{
+    width: 32%;
+    margin: 10px 0;
+}
+.prtfoilio-item img{
+    width: 100%;
+}
+
 
