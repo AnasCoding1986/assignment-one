@@ -289,5 +289,50 @@ font-family: 'Merriweather', serif; */
 .prtfoilio-item img{
     width: 100%;
 }
-
+/* ===============Subscribe=============== */
+.subscribe{
+    margin-top: 120px;
+    padding: 80px 200px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.subscribe .subscribe-image{
+   
+}
+.subscribe .subscribe-heading{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.subscribe .subscribe-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+.subscribe input[type=text]{
+    padding: 25px 30px;
+    width: 40%;
+    border-radius: 50px;
+    position: relative;
+    border: none;
+}
+.subscribe button{
+    padding: 25px 30px;
+    border-radius: 0px 50px 50px 0px;
+    background:#F00;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    position: absolute;
+    right: 39%;
+}
 
