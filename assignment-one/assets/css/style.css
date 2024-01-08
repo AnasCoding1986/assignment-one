@@ -229,16 +229,15 @@ font-family: 'Merriweather', serif; */
     position: absolute;
 }
 .funtional-offer .functional-offer-image-div .functional-offer-image-one{
-    width: 32%;
-    top: 12%;
+    width: 300px;
+    top: 30%;
     z-index: 99;
-    right: 13%;
+    right: 24%;
 }
 .funtional-offer .functional-offer-image-div .functional-offer-image-two{
-    width: 68%;
-    height: 60%;
-    left: 0;
-    top: 0;
+    /* width: 68%; */
+    left: 5%;
+    bottom: -15%;
     z-index: 99;
 }
 .funtional-offer .functional-offer-image-div .functional-offer-image-three{
